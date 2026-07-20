@@ -42,7 +42,7 @@ model = load_prediction_model()
 # =====================================================================
 # 2. STREAMLIT UI RENDER
 # =====================================================================
-st.set_page_page_config(page_title="SkySense - Rainfall Predictor", layout="wide")
+st.set_page_config(page_title="SkySense - Rainfall Predictor", layout="wide")
 
 st.title("⚡ SkySense - Rainfall Prediction Dashboard")
 st.markdown("Provide weather observations manually or auto-fill them from historical records.")
